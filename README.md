@@ -1,9 +1,12 @@
-# 💸 App de Finanças Pessoais do Daijo com Vibe Coding
+# App de Finanças Pessoais do Daijo com Vibe Coding
 
+Este repositório contém um MVP de organização de finanças pessoais baseado em conversa em linguagem natural, criado a partir de um PRD e implementado no Lovable.
 
-## PRD Refinado no ChatGpt
+Resultado final no Lovable: https://talk-your-finance.lovable.app/
 
-``` Markdown
+---
+
+## PRD Final (Prompt)
 
 # PRD – Aplicativo de Organização de Finanças Pessoais Conversacional
 
@@ -12,7 +15,7 @@
 Nome provisório: Agente Financeiro  
 Categoria: Finanças pessoais com interface conversacional  
 
-Proposta de Valor:
+Proposta de Valor:  
 Ajudar pessoas iniciantes a organizar suas finanças por meio de conversas em linguagem natural, eliminando planilhas complexas e formulários manuais, com experiência simples, inclusiva e acessível para o maior número possível de usuários.
 
 ---
@@ -27,7 +30,7 @@ Muitas pessoas abandonam aplicativos de controle financeiro porque:
 - Geram alto esforço cognitivo
 - Não são acessíveis para diferentes perfis de usuários
 
-Hipótese:
+Hipótese:  
 Se o usuário puder registrar informações financeiras por meio de conversa natural, com interface simples e universalmente acessível, a adesão e a retenção aumentarão.
 
 ---
@@ -68,7 +71,7 @@ Diretrizes obrigatórias:
 
 ## 5. Objetivos do Produto
 
-Objetivo Principal:
+Objetivo Principal:  
 Simplificar o controle financeiro por meio de uma experiência conversacional acessível.
 
 Objetivos Mensuráveis (MVP):
@@ -86,7 +89,7 @@ Objetivos Mensuráveis (MVP):
 
 O usuário poderá registrar gastos e receitas em linguagem natural.
 
-Exemplo:
+Exemplo:  
 "Gastei 35 reais no mercado hoje"
 
 O sistema deve extrair:
@@ -117,11 +120,10 @@ A classificação poderá ser corrigida pelo usuário.
 
 ### 6.3 Metas Financeiras
 
-Exemplo:
+Exemplo:  
 "Quero economizar 2 mil reais até dezembro"
 
 O sistema deve:
-
 - Registrar meta
 - Calcular prazo
 - Acompanhar progresso
@@ -132,14 +134,13 @@ O sistema deve:
 ### 6.4 Agente Financeiro (IA)
 
 Funções:
-
 - Alertas simples de comportamento financeiro
 - Sugestões práticas de economia
 - Comparações entre meses
 - Recomendações educativas em linguagem acessível
 
-Exemplo:
-"Você gastou 30% a mais com alimentação este mês."
+Exemplo:  
+"Você gastou 30% a mais com alimentação este mês."  
 "Se reduzir 15% do lazer, pode atingir sua meta um mês antes."
 
 ---
@@ -219,29 +220,30 @@ Exemplo:
 ## 10. Validação Inicial
 
 Fase 1 – Teste com 5 a 10 usuários:
-
 - Medir tempo para registrar gasto
 - Avaliar clareza das respostas
 - Avaliar percepção de simplicidade
 - Verificar acessibilidade básica
 
 Fase 2 – Métricas:
-
 - Retenção em 7 dias
 - Número médio de registros por usuário
 - Taxa de correção manual de categorias
 - Avaliação subjetiva de confiança no sistema
 
-```
-# Interações com o Lovable
+---
 
-> Crie um App de Finanças pessoais com base no seguinte PRD (Product Requirements Document):{PRD}
+## Interações com o Lovable
 
-> Teste o chat enviando mensagens como 'Gastei 50 reais no mercado' e navegue entre as abas para verificar se tudo funciona.
+Prompt utilizado:
 
-# Resultado final no Lovable:
+"Crie um App de Finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
-> https://talk-your-finance.lovable.app/
+Teste o chat enviando mensagens como 'Gastei 50 reais no mercado' e navegue entre as abas para verificar se tudo funciona."
+
+---
+
+## Prints e Interações
 
 > <img width="1410" height="921" alt="image" src="https://github.com/user-attachments/assets/eda1ef5b-c7d7-4f2a-ba7a-f8840e318c3a" />
 
@@ -249,22 +251,18 @@ Fase 2 – Métricas:
 
 > <img width="1357" height="923" alt="image" src="https://github.com/user-attachments/assets/835c72ed-6bde-4105-bfa3-0370c930d219" />
 
-# Funcionalidades do App Organização Financeira
-```
+> <img width="1305" height="924" alt="image" src="https://github.com/user-attachments/assets/8b36f66c-6d70-4f74-bcc9-c4d687d876b2" />
+
+
+---
+
+## Resumo do que o App faz
+
 # Agente Financeiro
 
 Aplicativo de organização de finanças pessoais baseado em conversa em linguagem natural.
 
-O objetivo é simplificar o controle financeiro para iniciantes, eliminando planilhas e formulários complexos, por meio de uma experiência intuitiva, acessível e orientada por IA.
-
----
-
-## Visão do Produto
-
-O Agente Financeiro permite que o usuário registre gastos e receitas conversando naturalmente com o sistema.  
-A aplicação interpreta a mensagem, classifica automaticamente a transação e organiza os dados para análise e acompanhamento de metas.
-
-O produto foi projetado seguindo princípios de Design Universal, garantindo boa experiência para o maior número possível de usuários.
+O objetivo é simplificar o controle financeiro para iniciantes, eliminando planilhas e formulários manuais, por meio de uma experiência intuitiva, acessível e orientada por IA.
 
 ## Principais Funcionalidades
 
@@ -276,8 +274,6 @@ O produto foi projetado seguindo princípios de Design Universal, garantindo boa
 - Sugestões rápidas de ação
 - Histórico em formato de conversa
 
----
-
 ### 2. Resumo Financeiro Mensal
 
 - Saldo atual
@@ -288,16 +284,12 @@ O produto foi projetado seguindo princípios de Design Universal, garantindo boa
 - Gráfico de gastos por categoria
 - Lista de transações recentes
 
----
-
 ### 3. Metas Financeiras
 
 - Criação de metas com prazo definido
 - Acompanhamento de progresso
 - Percentual de conclusão
 - Visão consolidada do progresso geral
-
----
 
 ### 4. Perfil e Configurações
 
@@ -307,12 +299,9 @@ O produto foi projetado seguindo princípios de Design Universal, garantindo boa
 - Configurações de acessibilidade
 - Configurações de privacidade
 
----
-
 ## Estrutura de Navegação
 
 Menu inferior fixo com quatro áreas principais:
-
 - Chat
 - Resumo
 - Metas
@@ -320,20 +309,15 @@ Menu inferior fixo com quatro áreas principais:
 
 Navegação simples, intuitiva e com ícones acompanhados de texto.
 
----
-
 ## Princípios de Design
 
 O aplicativo foi desenvolvido com base em:
-
 - Simplicidade
 - Linguagem clara
 - Baixo esforço cognitivo
 - Acessibilidade (WCAG 2.1 nível AA)
 - Compatibilidade com leitores de tela
 - Não dependência exclusiva de cores para transmitir informação
-
----
 
 ## Objetivo do MVP
 
@@ -344,33 +328,18 @@ O aplicativo foi desenvolvido com base em:
 
 ---
 
-## Próximos Passos
-
-- Feedback inteligente do Agente Financeiro
-- Edição rápida de transações pelo chat
-- Entrada por voz
-- Alertas automáticos de comportamento financeiro
-- Evolução para integração com Open Finance
-
----
-
-## Tecnologias e Conceitos
-
-- Interface conversacional com IA
-- Extração de entidades em linguagem natural
-- Classificação automática de categorias
-- Experiência centrada no usuário
-- Design Universal
-```
-
 ## Reflexão
 
 ### O que funcionou bem?
+
 O refinamento do PRD previamente feito pelo ChatGpt ajudou muito, pois usei apenas duas interações no Lovable.
 
-### O que não funcionou bem?
+### O que não funcionou como o esperado?
+
 Esperava poder interagir mais com o Lovable gratuitamente, pois assim poderia refinar muito mais. Mas já foi de grande valia no aprendizado em Vibe Coding.
 
 ### O que aprendeu sobre conversar com IAs?
-Aprendir que é basicamente como conversar com uma pessoa, quanto mais detalher e clareza eu der, mais respostas elaboradas e estruturadas receberei e a interação será cada vez mais eficaz.
+
+Aprendir que é basicamente como conversar com uma pessoa: quanto mais detalher e clareza eu der, mais respostas elaboradas e estruturadas receberei e a interação será cada vez mais eficaz.
+
 
